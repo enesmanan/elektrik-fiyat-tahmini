@@ -3,6 +3,9 @@
 --------------
 #### Türkiye İstatistik Kurumu (TUİK) üzerinden çektiğimiz, belli periyotlardaki elektrik ücretlerini içeren veri kullanılarak gelecek elektrik fiyatları için bir öngörüde bulunulmaya çalışıldı. Veri kirli halde bulunduğu için çeşitli ön işleme aşamalarından geçirildi. Pandas Profiling kütüphanesi ile verinin genel bir profili çıkartıldı. Matplotlib ve Seaborn kütüphanleri ile veri görselleştirildi. Prophet kütüphanesi ile de geleceğe yönelik öngörüde bulunuldu.
 -------
+## Pandas Profiling Raporu 
++ Rapor notebook üzerinde gözükmediği için index.html olarak repo içerisine eklendi.
++ [Bu](https://enesmanan.github.io/elektrik-fiyat-tahmini/) adresten inceleyebilirsin.
 ## Kullanılan Veri
 + [Bu](https://biruni.tuik.gov.tr/medas/?locale=tr) adresten veriyi çektik ve istenilen formata getirerek .csv olarak çıktısını aldık.
 + <b>izmir.csv</b> notebookta kullanılan veridir.
