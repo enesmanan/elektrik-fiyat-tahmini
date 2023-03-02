@@ -1,7 +1,7 @@
 # İzmir Elektrik Fiyatları Tahminlemesi
 ![logo1](https://user-images.githubusercontent.com/88631980/222411413-70c24d79-2fbf-4f5f-8b43-2e5b027a63ee.jpg)
----------------------------
-Türkiye İstatistik Kurumu (TUİK) üzerinden çektiğimiz, belli periyotlardaki elektrik ücretlerini içeren veri kullanılarak gelecek elektrik fiyatları için bir öngörüde bulunulmaya çalışıldı. Veri kirli halde bulunduğu için çeşitli ön işleme aşamalarından geçirildi. Pandas Profiling kütüphanesi ile verinin genel bir profili çıkarıldı. Matplotlib ve Seaborn kütüphanleri ile veri görselleştirildi. Prophet kütüphanesi ile de geleceğe yönelik öngörüde bulunuldu.
+--------------
+#### Türkiye İstatistik Kurumu (TUİK) üzerinden çektiğimiz, belli periyotlardaki elektrik ücretlerini içeren veri kullanılarak gelecek elektrik fiyatları için bir öngörüde bulunulmaya çalışıldı. Veri kirli halde bulunduğu için çeşitli ön işleme aşamalarından geçirildi. Pandas Profiling kütüphanesi ile verinin genel bir profili çıkartıldı. Matplotlib ve Seaborn kütüphanleri ile veri görselleştirildi. Prophet kütüphanesi ile de geleceğe yönelik öngörüde bulunuldu.
 -------
 ## Kullanılan Veri
 + [Bu](https://biruni.tuik.gov.tr/medas/?locale=tr) adresten veriyi çektik ve istenilen formata getirerek .csv olarak çıktısını aldık.
@@ -9,7 +9,6 @@ Türkiye İstatistik Kurumu (TUİK) üzerinden çektiğimiz, belli periyotlardak
 + Ek olarak İstanbul için tahminleme yapmak isteyenler için İstanbul verisini de çekip <b>istanbul.csv</b> olarak çalışmaya ekledim. Notebookta kullanılan yöntemler kullanılarak İstanbul içinde tahminleme yapılabilir. 
 -------------------------
 ## Kullanılan Kütüphaneler
-
      pandas
      matplotlib
      seaborn
